@@ -14,15 +14,15 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sunsun101/sunsun-kasajoo-fullstack-task.git
    cd <repository-name>
-
+   ```
 2.Build and run the project using Docker Compose:
 
     ```bash
     docker-compose up
-
-    This command will build and start the frontend and backend services.
+    ```
+This command will build and start the frontend and backend services.
 
 Accessing the Applications
 Frontend: Access the frontend application at http://localhost:5173
