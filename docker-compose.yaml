@@ -1,0 +1,19 @@
+version: '3'
+services:
+  react-app:
+    build: ./yuedpao-np-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./yuedpao-np-frontend:/app
+      - /app/node_modules
+    command: npm run dev
+
+  backend:
+    build: ./yuedpao-np-backend
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./yuedpao-np-backend:/app
+    
+    command: ./main
